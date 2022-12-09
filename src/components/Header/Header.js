@@ -1,6 +1,5 @@
-import { searchContext } from "../searchContext";
-import { useContext } from "react";
-import useToggle from "../../hooks/useToggle";
+import { searchContext } from '../searchContext';
+import { useContext } from 'react';
 
 export default function Header({ setShowFav }) {
   const { setSearch } = useContext(searchContext);
