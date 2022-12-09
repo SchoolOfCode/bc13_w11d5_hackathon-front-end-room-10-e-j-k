@@ -1,7 +1,8 @@
 import { searchContext } from "../searchContext";
 import { useContext } from "react";
+import useToggle from "../../hooks/useToggle";
 
-export default function Header() {
+export default function Header({ setShowFav }) {
   const { setSearch } = useContext(searchContext);
 
   return (
@@ -13,7 +14,7 @@ export default function Header() {
           setSearch(e.target.value);
         }}
       ></input>
-      <button>Toggle Favourites</button>
+      <button onClick={setShowFav}>Toggle Favourites</button>
     </div>
   );
 }
