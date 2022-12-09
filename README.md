@@ -22,7 +22,7 @@ https://soc-week-11-hackathon.onrender.com.
 This project is deployed at ...
 
 ```bash
-  https:// ...
+  https://deft-haupia-7d2afc.netlify.app
 ```
 
 ## Run Locally
