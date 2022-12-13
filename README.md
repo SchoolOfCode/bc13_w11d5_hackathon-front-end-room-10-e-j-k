@@ -1,13 +1,53 @@
-# Hackathon - Deployed Full Stack Challenge 💪🏆🪝
+# Room 10 Week 11 Hackathon (Frontend)
 
-Your challenge is to ideate, plan, and build a full stack app that includes the requirements below. You can use this repository for your front end. For your back end, one person in your team can create another repository for the back end and add your pair/team as contributors. (Pop a link to your team's back end repository in this readme.)
+This repository will act as an frontend app to use a film API where you are able to
+search for films which you can then favourite.
 
-What you build is up to you - use the steps that we've learned throughout the course to ensure your MVP is well-planned and managable for a day-long project (with a list of stretch goals to dip into as well!).
+The favourites are controlled by the backend repository
+https://github.com/kianeblackman/soc-week-11-hackathon-backend which is deployed at
+https://soc-week-11-hackathon.onrender.com.
 
-Start simple and get your first iteration MVP of your app working as your first priority, and then iterate!
+## Authors
 
-## Requirements
+- [jyotshnacs](https://www.github.com/jyotshnacs)
+- [Elspeth-57](https://www.github.com/Elspeth-57)
+- [kianeblackman](https://www.github.com/kianeblackman)
 
-- Deployed front and back ends that talk to each other
-- Use of the `useContext` hook somewhere in your app
-- Use of at least one custom hook somewhere in your app
+## Tech Stack
+
+**Client:** Create-React-App
+
+## Deployment
+
+This project is deployed at ...
+
+```bash
+  https://deft-haupia-7d2afc.netlify.app
+```
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/SchoolOfCode/bc13_w11d5_hackathon-front-end-room-10-e-j-k
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following
+environment variables to your .env file
+
+`BACKEND_URL`
